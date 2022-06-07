@@ -6,12 +6,13 @@
 
 body {
   background-color: #1f2937;
+  height: 100vh;
+  font-family: Tahoma;
 }
 
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  height: 72px;
 }
 
 header .container {
@@ -44,6 +45,7 @@ header ul li a {
 .hero {
   margin-top: 200px;
   height: 250px;
+  margin-bottom: 50px;
 }
 
 .hero-container {
@@ -62,7 +64,7 @@ header ul li a {
 .hero-container p {
   font-size: 18px;
   color: #e5e7eb;
-  width: 400px;
+  width: 425px;
 }
 
 .hero-button {
@@ -73,4 +75,107 @@ header ul li a {
   border-radius: 8px;
   width: 100px;
   font-weight: bold;
+}
+
+.information {
+  background-color: #fff;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  width: inherit;
+}
+
+.information h2 {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.information .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.information .information-container {
+  display: flex;
+}
+
+.information-img {
+  display: flex;
+  flex-direction: column;
+  width: 175px;
+  height: 175px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.information-img img {
+  border: 3px solid blue;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.quote {
+  height: 430px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.thor-quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  width: 755px;
+}
+
+.thor {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  width: 755px;
+}
+
+.call-to-action {
+  height: 300px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action .container {
+  display: flex;
+  width: 850px;
+  justify-content: space-between;
+  align-items: center;
+  height: 125px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 0 90px;
+}
+
+.sign-up {
+  background-color: #3882f6;
+  color: white;
+  border-color: transparent;
+  border: 2px solid white;
+  padding: 4px 25px;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  background-color: #1f2937;
 }
