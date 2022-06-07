@@ -1,1 +1,3 @@
-# odin-landing-page
+# The Odin Project Landing Page Project (redundant)
+
+## This is my completed landing page. I was surprised at how smoothly this went. I honestly did not have to google anything. I know that my code is not as DRY as it could be, but I am satisfied with the end result. I wish I would have started learning web development with The Odin Project far sooner. Truth be told, I did start it some time last year but for whatever reason I decided that I would like to explore other avenues. They do a great job of not doing a tremendous amount of hand holding like a lot of other courses do. And if you take the time to read all of the resources they provide you it makes a massive difference. Flex box and the box model make so much more sense to me now.
